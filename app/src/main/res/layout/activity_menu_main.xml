@@ -1,0 +1,39 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4fe66d"
+        android:text="Pedir Ayuda"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:id="@+id/btnPedirAyuda"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos de Servicio"
+        android:background="#c3f4cc"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnPedirAyuda"
+        android:id="@+id/btnPuntosServi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Servicio"
+        android:background="#c3f4cc"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnPedirAyuda"
+        android:id="@+id/btnRegisPropietario"
+        />
+
+
+</RelativeLayout>
